@@ -1,6 +1,6 @@
 export const Dark = {
     FirstBackground: '#1c0017',
-    SecondBackground: '#19181c',
+    SecondBackground: '#212121',
     Foreground: '#3ecff0',
     Color:'#ffffff',
     FontSize1:'',

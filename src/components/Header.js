@@ -13,7 +13,7 @@ function Header() {
   return (
     <div
       className="header-section"
-      style={Theme.isdark ? { color: Dark.Color } : { color: Light.Color }}
+      style={Theme.isdark ? { color: Dark.Color,backgroundColor:Dark.FirstBackground } : { color: Light.Color, backgroundColor:Light.FirstBackground }}
     >
       <div className="left-side">
         <span style={{ color: Dark.Foreground }}>C</span>R

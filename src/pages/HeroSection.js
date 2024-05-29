@@ -54,7 +54,7 @@ function HeroSection() {
           <h4>
             And I'm{" "}
             <span className="hero-subheader" style={{ color: "#3ecff0" }}>
-              {dropLetterAnimation("React Full Stack Developer")}
+              {dropLetterAnimation("Full Stack Developer")}
             </span>
           </h4>
           <p>
