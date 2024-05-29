@@ -1,0 +1,182 @@
+.hero-section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 35px;
+}
+
+.hero-left {
+  padding: 100px 0 0 150px;
+}
+
+.hero-subheader .drop-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-100%);
+  animation: drop 2s forwards ease-in-out;
+}
+
+@keyframes drop {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-left h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.hero-left h4 {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.hero-left h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.hero-left p {
+  padding: 15px 0;
+  margin: 0;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.hero-buttons {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-right: 390px;
+}
+
+.hero-left-button {
+}
+
+.hero-right-button {
+}
+
+.hero-button {
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  border: 2px solid #3ecff0;
+  padding: 10px 0px !important;
+  opacity: 1 !important;
+  cursor: pointer;
+  width: 150px;
+  font-size: 15px !important;
+  color: #3ecff0;
+}
+
+.hero-button:hover {
+  text-shadow: 1px 1px 24px #3ecff0;
+  box-shadow: 0 0 10px #3ecff0, 0 0 20px #3ecff0, 0 0 30px #3ecff0;
+}
+
+.hero-right {
+  position: relative;
+}
+
+.hero-img {
+  width: 500px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  padding-left: 100px;
+}
+
+.back-img {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+}
+
+.back-img svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0px 0px 40px #3ecff0);
+}
+
+.icon-section {
+  margin-top: 40px;
+  margin-right: 500px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-section img {
+  width: 30px;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.icon-section img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1300px) {
+  .hero-container {
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-section {
+    width: 100vw;
+    height: 180vh;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+  }
+
+  .hero-left {
+    padding: 50px 20px 20px 20px;
+  }
+
+  .hero-right {
+    text-align: center;
+    padding: 20px 20px 50px 20px;
+    order: 1;
+  }
+
+  .hero-buttons {
+    margin-right: 0;
+    grid-gap: 10px;
+    width: 300px;
+  }
+
+  .hero-button {
+    width: auto;
+  }
+
+  .icon-section {
+    margin-right: 0;
+    margin-right: 500px;
+  }
+
+  .hero-img {
+    width: 500px;
+    padding-left: 0;
+  }
+
+  .back-img {
+    top: 50px;
+    left: 160px;
+    width: 500px;
+    height: auto;
+  }
+}
