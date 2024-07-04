@@ -15,11 +15,9 @@
   width: 20vw;
   cursor: pointer;
   border: 2px solid #3ecff0;
-  background: linear-gradient(to right, #3bd8f7 50%, transparent 50%);
-  background-size: 200% 100%;
-  transition: background-position 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-  filter: drop-shadow(0px 0px 20px #3ecff0);
+  background-color: #3ecff0;
+  transition: 1s;
 }
 .resume-button:hover {
-  background-position: -100% 0;
+  filter: drop-shadow(0px 0px 20px #3ecff0);
 }
