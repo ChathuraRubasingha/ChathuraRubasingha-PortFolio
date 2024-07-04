@@ -1,0 +1,67 @@
+.journy-wrapper {
+  width: 100%;
+  height: 110vh;
+}
+.j-container {
+  padding: 10vh 10vw;
+  text-align: center;
+}
+.j-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+.j-inner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  margin-top: 50px;
+}
+.j-left {
+}
+.j-sub-topic {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.j-right {
+}
+.j-side-bar-left {
+  padding-left: 10px;
+  border-left: 2px solid #3ecff0;
+}
+.j-side-bar-right {
+  padding-left: 10px;
+  border-left: 2px solid #3ecff0;
+}
+@media (max-width: 996px) {
+  .journy-wrapper {
+    height: 180vh;
+  }
+  .j-inner-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 775px) {
+  .j-header {
+    font-size: 2.3rem;
+  }
+  .j-sub-topic {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 600px) {
+  .j-header {
+    font-size: 2.1rem;
+  }
+  .j-sub-topic {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 360px) {
+  .j-header {
+    font-size: 2rem;
+  }
+  .j-sub-topic {
+    font-size: 1.1rem;
+  }
+}

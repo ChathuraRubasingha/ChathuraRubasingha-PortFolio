@@ -1,0 +1,178 @@
+.skill-wrapper {
+  width: 100%;
+  height: 125vh;
+  text-align: center;
+}
+.skill-wrapper-view {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.skill-container {
+  padding: 10vh 10vw;
+}
+.skill-topic {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.skill-inner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+  padding-top: 50px;
+}
+.skill-left {
+}
+.skill-right {
+}
+.progress-container {
+  padding: 20px 0px;
+}
+.progress-topics {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.progress-topic {
+}
+.skill-sub-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.progress2 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(63, 63, 63, 0.25);
+  box-shadow: inset 0 1px 2px #d1cfcf, 0 1px rgba(255, 255, 255, 0.08);
+  filter: drop-shadow(0px 0px 20px #3ecff0);
+}
+
+.progress-bar2 {
+  height: 5px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.1s linear;
+  transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+  width: 85%;
+  background-color: #3ecff0;
+  animation: progressAnimation 2s;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #3ecff0;
+  }
+  100% {
+    width: 50%;
+    background-color: #00caf7;
+  }
+}
+.view-more-wrapper {
+  margin-top: 50px;
+  text-align: left;
+  transition: 2s;
+}
+.view-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.view-body {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 50px;
+}
+.view-body img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: 1s;
+}
+.view-body img:hover {
+transform: scale(1.1);
+}
+.view-item{
+  display: flex;
+  flex-direction: column;
+
+align-items: center;
+}
+.item-name{
+  font-size: 1rem;
+  font-weight: 500;
+}
+@media (max-width: 890px) {
+  .skill-wrapper {
+    height: 190vh;
+  }
+  .skill-inner-container {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .skill-view-button {
+    width: 25vw;
+  }
+  .skill-topic {
+    font-size: 2.3rem;
+  }
+  .view-body {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 745px) {
+  .skill-wrapper {
+    height: 210vh;
+  }
+  .skill-inner-container {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .skill-view-button {
+    width: 25vw;
+    font-size: 0.9rem;
+  }
+  .skill-topic {
+    font-size: 2.2rem;
+  }
+  .skill-sub-header {
+    font-size: 1.3rem;
+  }
+  .view-body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 360px) {
+  .skill-wrapper {
+    height: 210vh;
+  }
+  .skill-inner-container {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .skill-view-button {
+    width: 35vw;
+    font-size: 0.8rem;
+  }
+  .skill-topic {
+    font-size: 2rem;
+  }
+  .skill-sub-header {
+    font-size: 1.1rem;
+  }
+  .view-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

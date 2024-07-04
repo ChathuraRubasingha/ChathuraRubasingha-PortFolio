@@ -1,0 +1,25 @@
+.resume-wrapper {
+  padding: 20vh 15vw 10vh;
+}
+
+.resume-button-wrapper {
+  margin: 10vh 10vw;
+  text-align: center;
+}
+.resume-button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 30px;
+  width: 20vw;
+  cursor: pointer;
+  border: 2px solid #3ecff0;
+  background: linear-gradient(to right, #3bd8f7 50%, transparent 50%);
+  background-size: 200% 100%;
+  transition: background-position 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  filter: drop-shadow(0px 0px 20px #3ecff0);
+}
+.resume-button:hover {
+  background-position: -100% 0;
+}

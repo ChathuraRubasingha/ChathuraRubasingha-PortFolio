@@ -1,0 +1,106 @@
+.about-wrapper {
+  width: 100%;
+  height: auto;
+  transition: 2s;
+}
+.about-wrapper-read {
+  width: 100%;
+  height: auto;
+}
+.about-container {
+  padding: 10vh 10vw;
+  text-align: center;
+}
+.about-suport-header {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.about-header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 10px;
+}
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.abot-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  filter: drop-shadow(0px 0px 20px #3ecff0);
+  background-image: url(../assets/Img/AboutImg.png);
+  background-size: cover;
+}
+.about-body {
+  padding-top: 50px;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  text-align: justify;
+  transition: 2s;
+}
+.about-button {
+  font-size: 1rem;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 50px;
+  width: 10vw;
+  cursor: pointer;
+  transition: 1s;
+}
+.about-button:hover {
+  filter: drop-shadow(0px 0px 5px #3ecff0);
+  background-color: #3ecff0;
+}
+
+@media (max-width: 1290px) {
+}
+@media (max-width: 1100px) {
+  .about-button {
+    width: 15vw;
+  }
+}
+@media (max-width: 996px) {
+  .about-button {
+    width: 15vw;
+  }
+}
+@media (max-width: 900px) {
+  .about-button {
+    width: 15vw;
+  }
+}
+@media (max-width: 775px) {
+  .about-body {
+    font-size: 1rem;
+  }
+  .about-header {
+    font-size: 2.3rem;
+  }
+  .about-button {
+    width: 25vw;
+  }
+}
+@media (max-width: 600px) {
+  .about-button {
+    width: 20vw;
+  }
+  .about-header {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-button {
+    width: 25vw;
+  }
+  .about-header {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 400px) {
+  .about-button {
+    width: 35vw;
+  }
+}
