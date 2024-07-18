@@ -35,13 +35,15 @@ function ProjectCard(props) {
           })}
         </div>
         <div className="project-card-footer">
-          <div className="project-card-git">
-            Github
-            <FontAwesomeIcon
-              icon={faUpRightFromSquare}
-              style={{ paddingLeft: "10px" }}
-            />
-          </div>
+          <a href="https://github.com/ChathuraRubasingha">
+            <div className="project-card-git">
+              Github
+              <FontAwesomeIcon
+                icon={faUpRightFromSquare}
+                style={{ paddingLeft: "10px" }}
+              />
+            </div>
+          </a>
           <div className="project-card-avetar"></div>
         </div>
       </div>
