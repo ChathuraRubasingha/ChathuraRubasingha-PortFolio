@@ -32,6 +32,7 @@ function Projects() {
           {CardDetails.map((item) => {
             return (
               <ProjectCard
+                key={item.title}
                 title={item.title}
                 body={item.body}
                 backgroundImage={item.backgroundImage}

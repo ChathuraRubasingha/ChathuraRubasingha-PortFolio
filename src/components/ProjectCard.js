@@ -31,7 +31,7 @@ function ProjectCard(props) {
         </div>
         <div className="project-card-technologies">
           {props.tech.map((item) => {
-            return <div className="pct">{item}</div>;
+            return <div className="pct" key={item}>{item}</div>;
           })}
         </div>
         <div className="project-card-footer">
