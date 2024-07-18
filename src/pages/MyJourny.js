@@ -19,7 +19,7 @@ function MyJourny() {
     >
       <div className="j-container">
         <div className="j-header" style={{ color: Dark.foreground }}>
-          My Journy
+          My Journey
         </div>
         <div className="j-inner-container">
           <div className="j-left">

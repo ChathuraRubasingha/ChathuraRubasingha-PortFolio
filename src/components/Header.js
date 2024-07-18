@@ -76,7 +76,7 @@ function Header() {
             duration={300}
             onClick={ToggleMenu}
           >
-            Journy
+            Journey
           </Link>
           <Link
             className="menu-items"
