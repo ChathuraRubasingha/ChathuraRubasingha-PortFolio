@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import { getFilePlugin } from "@react-pdf-viewer/get-file";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-import Reseum from "../assets/resume/ChathuraRubasinghaSE.pdf";
+import Reseum from "../assets/resume/ChathuraRubasingheSE.pdf";
 import "../style/Pdfviewer.css";
 import { isDarkContext } from "../App";
 import { Dark, Light } from "../Theme";
